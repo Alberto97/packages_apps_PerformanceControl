@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 Performance Control - An Android CPU Control application
 Copyright (C) 2012  James Roberts
@@ -20,58 +20,53 @@ Copyright (C) 2012  James Roberts
 <resources>
 
     <string name="app_name">Performance Control</string>
-    <!-- Main tabs -->
-    <string name="tab_cpu_settings">"CPU Settings"</string>
-    <string name="tab_cpu_profiles">CPU Profiles</string>
-    <string name="tab_time_in_state">"Time In State"</string>
-    <string name="tab_voltage_settings">"Voltage Settings"</string>
-    <string name="tab_cpu_info">CPU Info</string>
-    <!-- Titles -->
-    <string name="t_cpu_settings">"CPU SETTINGS"</string>
-    <string name="t_volt_settings">"VOLTAGE SETTINGS"</string>
-    <string name="t_adv_settings">"ADVANCED SETTINGS"</string>
-    <string name="t_time_in_state">"TIME IN STATE"</string>
-    <string name="t_cpu_info">"CPU INFO"</string>
-    <!-- Menu -->
-    <string name="mt_refresh">Refresh</string>
-    <string name="mt_app_settings">"App Settings"</string>
-    <string name="mt_reset">Reset</string>
-    <string name="mt_restore">Restore</string>
-    <!-- CPU settings -->
-    <string name="current_speed">Current Speed</string>
-    <string name="current_max">Current max:</string>
-    <string name="current_min">Current min:</string>
+	<!-- Main tabs -->
+    <string name="tab_cpu_settings">Impostazioni CPU</string>
+    <string name="tab_cpu_profiles">Profili CPU</string>
+    <string name="tab_time_in_state">Tempo in Stato</string>
+    <string name="tab_voltage_settings">Impostazioni Voltaggio</string>
+    <string name="tab_cpu_info">Informazioni CPU</string>
+	<!-- Titles -->
+    <string name="t_cpu_settings">IMPOSTAZIONI CPU</string>
+    <string name="t_volt_settings">IMPOSTAZIONI VOLTAGGIO</string>
+    <string name="t_adv_settings">IMPOSTAZIONI AVANZATE</string>
+    <string name="t_time_in_state">TEMPO IN STATO</string>
+    <string name="t_cpu_info">INFORMAZIONI CPU</string>
+	<!-- Menu -->
+    <string name="mt_refresh">Aggiorna</string>
+    <string name="mt_app_settings">Impostazioni Applicazioni</string>
+    <string name="mt_reset">Resetta</string>
+    <string name="mt_restore">Ripristina</string>
+	<!-- CPU settings -->
+    <string name="current_speed">Velocità Corrente</string>
+    <string name="current_max">Corrente max:</string>
+    <string name="current_min">Corrente min:</string>
     <string name="governor">Governor</string>
-    <string name="io">IO Scheduler</string>
-    <string name="sob">Set on boot</string>
+    <string name="io">I/O Scheduler</string>
+    <string name="sob">"Applica all'avvio"</string>
     <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
-    <!-- Other settings -->
-    <string name="prefcat_free_memory">FREE MEMORY</string>
-    <string name="prefcat_tweaks">KERNEL TWEAKS (IF SUPPORTED)</string>
+    <string name="cancel">Annulla</string>
+	<!-- Other settings -->
+    <string name="prefcat_free_memory">MEMORIA LIBERA</string>
+    <string name="prefcat_tweaks">TWEAKS KERNEL(SE SUPPORTATI)</string>
     <string name="prefcat_misc_short">MISC</string>
-    <string name="prefcat_read_ahead">SD READ AHEAD</string>
-    <string name="prefcat_vm_settings">VM SETTINGS</string>
+    <string name="prefcat_read_ahead">LETTURA IN ANTICIPO SD</string>
+    <string name="prefcat_vm_settings">IMPOSTAZIONI VM</string>
     <string name="dt_free_memory">Minfree Taskkiller</string>
-    <string name="dt_read_ahead">SD Read Ahead</string>
-    <string name="pt_free_memory">Free memory</string>
-    <string name="ps_free_memory">Amount of RAM the minfree taskkiller will keep |
-        Current: %s
-    </string>
-    <string name="ps_free_memory_boot">Apply the amount above at boot</string>
-    <string name="pt_read_ahead">SD read ahead</string>
-    <string name="ps_read_ahead">Amount to read ahead on SDCard reads in kb |
-        Current: %s
-    </string>
-    <string name="ps_read_ahead_boot">Apply the amount above at boot</string>
-    <string name="pt_fast_charge_boot">Fast Charge</string>
-    <string name="ps_fast_charge_boot">Enable fast charge at boot</string>
-    <string name="fast_charge_warning">YOU WILL NOT BE ABLE TO CONNECT TO YOUR PC AFTER
-        EACH REBOOT!\n\nThis setting will set fast charge ON after each
-        reboot. While fast charge is on, you can *only* charge your phone!
-    </string>
-    <string name="fast_charge_notification_title">Fast Charge is ON!</string>
-    <string name="fast_charge_notification_message">Phone is in charge-only mode!</string>
+    <string name="dt_read_ahead">Lettura in anticipo SD</string>
+    <string name="pt_free_memory">Memoria Libera</string>
+    <string name="ps_free_memory">Quantità di RAM che il minfree taskkiller deve mantenere | Corrente: %s</string>
+    <string name="ps_free_memory_boot">"Applicare all'avvio il valore precedente"</string>
+    <string name="pt_read_ahead">Lettura SD in anticipo</string>
+    <string name="ps_read_ahead">Quantità di RAM che il minfree taskkiller deve mantenere | Corrente: %s</string>
+    <string name="ps_read_ahead_boot">"Applicare all'avvio la quantità precedente"</string>
+    <string name="pt_fast_charge_boot">Ricarica Veloce</string>
+    <string name="ps_fast_charge_boot">"Abilita la ricarica veloce all'avvio"</string>
+    <string name="fast_charge_warning">"NON SARAI IN GRADO DI CONNETTERE IL TELEFONO AL PC DOPO IL RIAVVIO!
+
+Questa impostazione è configurata come carica rapida impostata a ogni riavvio. Mentre la ricarica veloce è impostata, potrai *solo* ricaricare il telefono!"</string>
+    <string name="fast_charge_notification_title">La ricarica veloce è IMPOSTATA!</string>
+    <string name="fast_charge_notification_message">Il telefono è in modalità solo carica!</string>
     <string name="size_25_mb">25mb</string>
     <string name="size_50_mb">50mb</string>
     <string name="size_75_mb">75mb</string>
@@ -83,72 +78,61 @@ Copyright (C) 2012  James Roberts
     <string name="size_1024_kb">1024kb</string>
     <string name="size_2048_kb">2048kb</string>
     <string name="size_4096_kb">4096kb</string>
-    <!-- Voltage control -->
-    <string name="ps_volt_mhz_voltage">" MHz Voltage"</string>
-    <string name="ps_volt_save">"Save"</string>
-    <string name="ps_volt_current_voltage">"Current voltage: "</string>
-    <string name="ps_volt_setting_to_apply">"Setting to apply: "</string>
-    <string name="pt_volt_control">Voltage control</string>
-    <string name="ps_volt_control">Set voltages for each frequency</string>
-    <string name="apply_values">Apply values</string>
-    <string name="freq">Frequency</string>
-    <string name="current">mV current</string>
-    <string name="saved">mV saved</string>
-    <string name="not_supported">Your kernel does not support voltage control</string>
-    <!-- VM settings -->
-    <string name="ps_vm_set_on_boot">If enabled will restore all vm settings on reboot</string>
+	<!-- Voltage control -->
+    <string name="ps_volt_mhz_voltage">" Voltaggio MHz"</string>
+    <string name="ps_volt_save">Salva</string>
+    <string name="ps_volt_current_voltage">"Voltaggio Corrente: "</string>
+    <string name="ps_volt_setting_to_apply">"Impostazioni da applicare: "</string>
+    <string name="pt_volt_control">Controllo Voltaggio</string>
+    <string name="ps_volt_control">Imposta voltaggio per entrambe le frequenze</string>
+    <string name="apply_values">Applica impostazioni</string>
+    <string name="freq">Frequenza</string>
+    <string name="current">mV corrente</string>
+    <string name="saved">mV salvato</string>
+    <string name="not_supported">Il tuo kernel non supporta il controllo voltaggio</string>
+	<!-- VM settings -->
+    <string name="ps_vm_set_on_boot">"Se abilitato, saranno ripristinate tutte le impostazioni vm all'avvio"</string>
     <string name="dirty_ratio_title">Dirty ratio</string>
     <string name="dirty_background_title">Dirty background ratio</string>
-    <string name="dirty_expire_title">Dirty expire centisecs</string>
-    <string name="dirty_writeback_title">Dirty writeback centisecs</string>
+    <string name="dirty_expire_title">Dirty expire centisecondi</string>
+    <string name="dirty_writeback_title">Dirty writeback centisecondi</string>
     <string name="min_free_title">Minfree kbytes</string>
     <string name="overcommit_title">Overcommit ratio</string>
     <string name="swappiness_title">Swappiness</string>
     <string name="vfs_title">VFS cache pressure</string>
-    <!-- Time in state -->
-    <string name="time_in_state">TIME IN STATE</string>
-    <string name="unused_cpu_states">UNUSED CPU STATES</string>
-    <string name="total_state_time">TOTAL STATE TIME</string>
-    <string name="no_states_file_found">No states file found. Are you sure your phone is
-        compatible?\n\nIf you are running a custom ROM or kernel, try
-        contacting its developer to inform him that the states file is not
-        readable.
-    </string>
-    <string name="deep_sleep">"Deep Sleep"</string>
-    <!-- CPU info -->
-    <string name="kernel_info">LINUX KERNEL INFORMATION</string>
-    <string name="cpu_info">CPU INFORMATION</string>
-    <string name="mem_info">MEMORY INFORMATION</string>
-    <string name="first_run_title">First check for root</string>
-    <string name="su_success_title">Success!</string>
+	<!-- Time in state -->
+    <string name="time_in_state">TEMPO IN STATO</string>
+    <string name="unused_cpu_states">STATO CPU NON USATA</string>
+    <string name="total_state_time">TEMPO TOTALE IN STATO</string>
+    <string name="no_states_file_found">"File di stato non trovati. Sei sicuro che il telefono sia compatibile?
+
+Se stai usando una custom ROM o Kernel, prova a contattare lo sviluppatore per informarlo che i files di stato non sono leggibili."</string>
+    <string name="deep_sleep">Deep Sleep</string>
+	<!-- CPU info -->
+    <string name="kernel_info">INFORMAZIONI KERNEL LINUX</string>
+    <string name="cpu_info">INFORMAZIONI CPU</string>
+    <string name="mem_info">INFORMAZIONI MEMORIA</string>
+    <string name="first_run_title">Prima controlla i permessi root</string>
+    <string name="su_success_title">Riuscito!</string>
     <string name="su_failed_title">Oops!</string>
-    <string name="first_run_message">The application needs to check for root access and
-        busybox. Press OK to continue. Cancel if you would not like to grant
-        root access.
-    </string>
-    <string name="su_success_message">Performance Control was able to get root access and
-        find busybox. Ready to rock!
-    </string>
-    <string name="su_cancel_message">You have chosen to not check for root and busybox.
-        Most options will not work without root access. Sorry!
-    </string>
-    <string name="su_failed_su_or_busybox">Root access failed or busybox was not found. Most
-        options will not work without root access. Sorry!
-    </string>
+    <string name="first_run_message">"L'applicazione richiede i permessi root e busybox. Premi OK per continuare. Annulla se non vuoi garantire i permessi root."</string>
+    <string name="su_success_message">Performance Control è in grado di ottenere i permessi root e di accedere a busybox. Pronto per la modifica!</string>
+    <string name="su_cancel_message">Hai scelto di non controllare i diritti root e busybox. La maggior parte delle opzioni non funzionerà senza permessi root</string>
+    <string name="su_failed_su_or_busybox">Accesso Root fallito or busybox non è stato trovato. La maggior parte delle opzioni non funzionerà senza permessi root</string>
     <!-- PC Settings -->
-    <string name="pt_use_light_theme">Use light theme</string>
-    <string name="ps_use_light_theme">If checked, Performance Control will use a Holo light theme</string>
-    <string name="pt_widget_bg_color">Widget bg color</string>
-    <string name="pt_widget_text_color">Widget text color</string>
-    <string name="pt_ver">"Version - "</string>
-    <!-- Color picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on Color to apply</string>
+	<string name="pt_use_light_theme">Usa il tema chiaro</string>
+    <string name="ps_use_light_theme">Se selezionato, Performance Control userà il tema Holo light</string>
+    <string name="pt_widget_bg_color">Colore Widget</string>
+    <string name="pt_widget_text_color">Colore del testo del Widget</string>
+    <string name="pt_ver">"Versione - "</string>
+	<!-- Color picker -->
+    <string name="dialog_color_picker">Selettore colore</string>
+    <string name="press_color_to_apply">Premi sul colore per applicarlo</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint">#FF000000</string>
-    <string name="set">Set</string>
+    <string name="hex_hint">\#FF000000</string>
+    <string name="set">Imposta</string>
     <string name="ics_color">Holo</string>
-
+	
 </resources>
