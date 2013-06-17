@@ -7,5 +7,5 @@ Licensed under GPL v3
 
 LICENSE - https://github.com/xoomdev/PerformanceControl/blob/v1.0.1/LICENSE
 
-- LDPI Layout Version -
+-- LDPI Layout Version --
 
