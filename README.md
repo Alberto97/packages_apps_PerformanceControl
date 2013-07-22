@@ -1,7 +1,7 @@
 Performance Control
 ===================
 
--- LDPI Layout version --
+-- LDPI Layout version -- -- Italian Translation Included --
 
 A CPU Control application (free) bundled with AOKP (http://github.com/AOKP)
 
