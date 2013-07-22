@@ -118,7 +118,7 @@ Se stai usando una custom ROM o Kernel, prova a contattare lo sviluppatore per i
     <string name="first_run_message">"L'applicazione richiede i permessi root e busybox. Premi OK per continuare. Annulla se non vuoi garantire i permessi root."</string>
     <string name="su_success_message">Performance Control è in grado di ottenere i permessi root e di accedere a busybox. Pronto per la modifica!</string>
     <string name="su_cancel_message">Hai scelto di non controllare i diritti root e busybox. La maggior parte delle opzioni non funzionerà senza permessi root</string>
-    <string name="su_failed_su_or_busybox">Accesso Root fallito or busybox non è stato trovato. La maggior parte delle opzioni non funzionerà senza permessi root</string>
+    <string name="su_failed_su_or_busybox">Accesso Root fallito o busybox non è stato trovato. La maggior parte delle opzioni non funzionerà senza permessi root</string>
         <!-- PC Settings -->
     <string name="pt_use_light_theme">Usa il tema chiaro</string>
     <string name="ps_use_light_theme">Se selezionato, Performance Control userà il tema Holo light</string>
